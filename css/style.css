@@ -192,6 +192,10 @@ header{
         padding-left: 0px;
         padding-bottom: 0px;
     }
+
+    body{
+        overflow-x: hidden;
+    }
 }
 
 /* END ABOUT */
