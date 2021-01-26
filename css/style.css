@@ -86,7 +86,7 @@ header{
 }
 @media only screen and (max-width: 320px) {
     .img-header img{
-        width:9rem;
+        width:7rem;
         height: auto;
         display:flex;
         margin:0 auto;
