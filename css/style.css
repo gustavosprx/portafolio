@@ -84,6 +84,22 @@ header{
        
     }
 }
+@media only screen and (max-width: 320px) {
+    .img-header img{
+        width:9rem;
+        height: auto;
+        display:flex;
+        margin:0 auto;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .header-name, .header-profession, .header-city{
+        font-size: 25px;
+    }
+    .header-greeting{
+        margin-top: 120px;
+    }
+}
 
 
 /* ABOUT*/
@@ -92,21 +108,21 @@ header{
     background: #191919;
 }
 .about-left{
-    padding: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 80px;
 
 }
 
 .image-left{
     border-radius: 30px;
-    border:0;
+    border: 0;
     vertical-align: middle;
 }
 
-.about-presentacion{
-    font-size: 50px;
+.about-presentacion {
     font-family: 'Montserrat', sans-serif;
     color: #FFFFFF;
-    padding-top:100px;
 }
 
 .about-info{
@@ -115,7 +131,6 @@ header{
     font-size: 18px;
     line-height:45px;
     font-weight: 300;
-
 }
 
 .love{
@@ -131,17 +146,52 @@ header{
    
 }
 
-.wrapper1 , .wrapper2, .wrapper3, .wrapper4{
-    float: left;
-    padding: 20px 30px;
+.love-things{
+    color: #F9004D;
+    text-align: center;
+    margin-top: 10px;
+    /* border-bottom: 3px solid #F9004D ; */
+}
+
+@media only screen and (max-width: 320px) {
+    .img-left{
+        width: 20rem;
+        height: auto;
+        display:flex;
+        margin:0 auto;
+    }
+    .about-left{
+        padding-left: 0px;
+        padding-bottom: 0px;
+    }
+
+}
+
+@media only screen and (max-width: 360px) {
+    .img-left{
+        width: 20rem;
+        height: auto;
+        display:flex;
+        margin:0 auto;
+    }
+    .about-left{
+        padding-left: 0px;
+        padding-bottom: 0px;
+    }
     
 }
 
-.love-things{
-    color: #FFFFFF;
-    text-align: center;
-    margin-top: 10px;
-    border-bottom: 3px solid #F9004D ;
+@media only screen and (max-width: 414px) {
+    .img-left{
+        width: 20rem;
+        height: auto;
+        display:flex;
+        margin:0 auto;
+    }
+    .about-left{
+        padding-left: 0px;
+        padding-bottom: 0px;
+    }
 }
 
 /* END ABOUT */
@@ -158,9 +208,7 @@ header{
 
 .experience-h1{
     color: #FFFFFF;
-    text-align: center;
     font-family: 'Montserrat', sans-serif;
-    font-size: 50px;
 }
 
 .wrapper-experience-h5{
@@ -235,8 +283,31 @@ header{
     width:9rem;
     height: auto;
     margin-top: 25px;
-    
 }
+
+@media only screen and (max-width: 320px) {
+    .experience-h5{
+       margin-left: auto;
+       margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .experience-h5{
+       margin-left: auto;
+       margin-right: auto;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .experience-h5{
+       margin-left: auto;
+       margin-right: auto;
+    }
+}
+
+
+
+
 /* END-EXPERIENCE */
 
 /* PORTAFOLIO */
@@ -319,7 +390,7 @@ header{
 }
 
 .touch i{
-    font-size: 80px;
+    font-size: 100px;
 }
 
 /* END-CONTACT*/
@@ -381,9 +452,7 @@ padding-top: 20px;
 }
 
 .active{
-    color: #F9004D ;
-    border-bottom: 3px solid #F9004D ;
+    color: #F9004D;
+    border-bottom: 3px solid #F9004D;
     padding-bottom: 15px;
-    
-
 }
