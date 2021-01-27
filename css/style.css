@@ -1,14 +1,15 @@
 body{
     font-family: 'Poppins', sans-serif;
-    overflow-x: hidden;
 }
-div .container.fluid .row{
+
+div.row{
     margin-right: 0px;
  }
  
  div.container-fluid{
     padding-right: 0px;
  }
+
 header{
    
     background: url(../img/image.jpg) no-repeat fixed center;
