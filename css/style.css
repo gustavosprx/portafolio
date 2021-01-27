@@ -179,6 +179,13 @@ header{
         padding-bottom: 0px;
     }
 
+    .navbar{
+        background: rgba(0, 0, 0, 0.700)!important;
+    }
+    .top-nav-collapse{
+        background: rgba(0, 0, 0, 0.890) !important; 
+    }
+
 }
 
 @media only screen and (max-width: 360px) {
@@ -193,6 +200,12 @@ header{
         padding-bottom: 0px;
     }
     
+    .navbar{
+        background: rgba(0, 0, 0, 0.700)!important;
+    }
+    .top-nav-collapse{
+        background: rgba(0, 0, 0, 0.890) !important; 
+    }
 }
 
 @media only screen and (max-width: 414px) {
