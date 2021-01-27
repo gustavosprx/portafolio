@@ -472,6 +472,11 @@ ul .nav-item:hover a i{
     background-attachment: fixed;
 }
 
+.resume .row{
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+
 .btn-resume {
     background:linear-gradient(135deg, #d41e31, #491f8f);
     margin-top: 20px;
