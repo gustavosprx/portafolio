@@ -15,8 +15,7 @@ header{
 
 
 .top-nav-collapse{
-    background: rgba(0, 0, 0, 0.890) !important;
-    
+    background: rgba(0, 0, 0, 0.890) !important; 
 }
 
 .header-greeting{
@@ -210,6 +209,13 @@ header{
 
     body{
         overflow-x: hidden;
+    }
+
+    .navbar{
+        background: rgba(0, 0, 0, 0.700)!important;
+    }
+    .top-nav-collapse{
+        background: rgba(0, 0, 0, 0.890) !important; 
     }
 }
 
