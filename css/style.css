@@ -1,3 +1,12 @@
+html  {
+
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+
+}
 body{
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
@@ -64,6 +73,10 @@ header{
 .link{
     color: #FFFFFF;
     margin-right: 20px;
+}
+
+ul .nav-item:hover a i{
+    color: #F9004D;
 }
 
 
@@ -495,7 +508,7 @@ padding-top: 20px;
     font-size: 22px;
     color: #FFFFFF;
 }
-.wrapper .button:hover .icon i{
+.wrapper .button .icon i:hover{
     color: #F9004D;
     cursor: pointer;
 }
