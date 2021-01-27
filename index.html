@@ -22,6 +22,9 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <!-- Material Design Bootstrap -->
   <link rel="stylesheet" href="css/mdb.min.css">
+  <!--SCROLL REVEAR-->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <!--CUSTOM CSS-->
   <!-- Your custom styles (optional) -->
   <link rel="stylesheet" href="css/style.css">
   <!-- Custom styles -->
@@ -86,7 +89,7 @@
     <section>
       <div class="container">
         <div class="row">
-          <div class="col-xs-12 col-sm-12 col-md-6">
+          <div class="col-xs-12 col-sm-12 col-md-6 greeting">
             <div class=" text-left">
               <h3 class="header-greeting">WELCOME TO MY PORTAFOLIO</span>  
             </div>
@@ -231,7 +234,7 @@
           </div>
         </div>
         <div class="container">
-          <div class="row">
+          <div class="row exp">
             <div class="col-12 col-sx-12 col-sm-12 col-md-12 col-lg-12">
               <img class="allusoft " src="./img/allusoft.png">
             <div/>
@@ -462,9 +465,9 @@
   <!--GET-IN-TOUCH -->
   <section class="touch text-center py-5" id="Contact">
     <h1 class="get-h1 text-uppercase">Get in Touch!</h1>
-    <i class="far fa-envelope my-4 wow animate__backInDown"></i>
+    <i class="far fa-envelope"></i>
     <p class="get-p px-5">Wheter you have an idea for a project, want to build someting great,<br> or just want to chat, feel free to send me an email!</p>
-    <a href="mailto:gustavo.sprx@gmail.com" target="_blank" class="boton-gradient btn text-capitalize wow animate__heartBeat">Say Hello</a>
+    <a href="mailto:gustavo.sprx@gmail.com" target="_blank" class="boton-gradient btn text-capitalize">Say Hello</a>
   </section>
 
   <!--END-GET-IN-TOUCH-->
@@ -498,7 +501,7 @@
 
         <div class="col-12 col-sx-12 col-sm-12 col-md-4">
           <div class="text-center mb-3">
-            <a href="#"><img src="./img/logo.png" style="width: 50px; height: 50px;"></a>
+            <a href="#"><img src="./img/logo.png" class="logo-footer" style="width: 50px; height: 50px;"></a>
           </div>
         </div>
 
@@ -561,6 +564,87 @@
   <script type="text/javascript" src="js/mdb.min.js"></script>
   <!-- Your custom scripts (optional) -->
   <script type="text/javascript"></script>
+
+  <!--script scroll-reveal-->
+  <script>
+    window.sr = ScrollReveal()
+    sr.reveal('.navbar',{
+      duration:2000,
+      origin:"bottom"
+    })
+
+    sr.reveal('.greeting',{
+      duration:2000,
+      origin:"top",
+      distance:"300px"
+    })
+
+    sr.reveal('.img-header',{
+      duration:2000,
+      origin:"right",
+      distance:"300px"
+    })
+
+    sr.reveal('.image-left',{
+      duration:1000,
+      origin:"bottom",
+      distance:"300px"
+    })
+
+    sr.reveal('.wrapper',{
+      duration:3000,
+      origin:"right"
+    })
+
+    sr.reveal('.boton-gradient',{
+      duration:2000,
+      origin:"bottom",
+      delay:1000
+    })
+
+    sr.reveal('.boton-gradient',{
+      duration:2000,
+      origin:"bottom",
+      delay:1000
+    })
+
+    sr.reveal('.btn-resume',{
+      duration:2000,
+      origin:"bottom",
+      delay:1000
+    })
+
+    sr.reveal('.logo-footer',{
+      duration:2000,
+      origin:"top",
+      distance:"300px"
+    })
+    sr.reveal('.fa-envelope',{
+      duration:2000,
+      origin:"top",
+      distance:"300px"
+    })
+
+    sr.reveal('.exp',{
+      duration:2000,
+      origin:"left",
+      distance:"300px"
+    })
+   
+
+
+   
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+  </script>
 
 </body>
 </html>
