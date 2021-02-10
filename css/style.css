@@ -451,19 +451,23 @@ ul .nav-item:hover a i{
 .boton-gradient{
     background:linear-gradient(135deg, #d41e31, #491f8f);
     color: white;
-    font-size: 20px;
+    font-size: 14px;
+}
+
+.boton-gradient .fa-envelope{
+    font-size: 17px !important;
+    padding-right: 5px;
 }
 
 .boton-whatsapp {
     background:linear-gradient( #17bf57, #87de6b);
     color: white;
-    font-size: 20px;
+    font-size: 14px;
 }
 
 .fa-whatsapp{
-    font-size: 20px !important;
+    font-size: 17px !important;
     padding-right: 5px;
-
 }
 
 
