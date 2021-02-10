@@ -454,6 +454,19 @@ ul .nav-item:hover a i{
     font-size: 20px;
 }
 
+.boton-whatsapp {
+    background:linear-gradient( #17bf57, #87de6b);
+    color: white;
+    font-size: 20px;
+}
+
+.fa-whatsapp{
+    font-size: 20px !important;
+    padding-right: 5px;
+
+}
+
+
 .touch{
     background-color: rgba(215, 201, 228, 0.63);
 }
