@@ -42,7 +42,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item" >
-              <a class="link ml-3 mt-3" id="link" href="#about">About</a>
+              <a class="link ml-3 mt-3" id="link1" href="#about">About</a>
             </li>
             <li class="nav-item">
               <a class="link ml-3 mt-3" id="link2" href="#Experience">Experience</a>
@@ -515,123 +515,19 @@
     </div>
     
   </footer>
-  
-  <!-- End your project here-->
-
-  <!-- jQuery -->
-  <script>
-  const link = document.getElementById("link")
-  const link2 = document.getElementById("link2")
-  const link3= document.getElementById("link3")
-  const link4 = document.getElementById("link4")
-
-  link.addEventListener('click', function () {
-    link.classList.remove("waves-effect") 
-    link.classList.add("active")
-    link2.classList.remove("active")
-    link3.classList.remove("active")
-    link4.classList.remove("active")
-  })
-
-  link2.addEventListener('click', function () {
-    link2.classList.remove("waves-effect")
-    link2.classList.add("active")
-    link.classList.remove("active")
-    link3.classList.remove("active")
-    link4.classList.remove("active")
-  })
-  link3.addEventListener('click', function () {
-    link3.classList.remove("waves-effect")
-    link3.classList.add("active")
-    link.classList.remove("active")
-    link2.classList.remove("active")
-    link4.classList.remove("active")
-  })
-  link4.addEventListener('click', function () {
-    link4.classList.remove("waves-effect")
-    link4.classList.add("active")
-    link.classList.remove("active")
-    link2.classList.remove("active")
-    link3.classList.remove("active")
-  })
-  </script>
-  
-  <script type="text/javascript" src="js/jquery.min.js"></script>
-  <!-- Bootstrap tooltips -->
-  <script type="text/javascript" src="js/popper.min.js"></script>
-  <!-- Bootstrap core JavaScript -->
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <!-- MDB core JavaScript -->
-  <script type="text/javascript" src="js/mdb.min.js"></script>
-  <!-- Your custom scripts (optional) -->
-  <script type="text/javascript"></script>
-
-  <!--script scroll-reveal-->
-  <script>
-    window.sr = ScrollReveal()
-
-    sr.reveal('.greeting',{
-      duration:2000,
-      origin:"left",
-      distance:"300px"
-    })
-
-    sr.reveal('.img-header',{
-      duration:2000,
-      origin:"right",
-      delay:1000
-    })
-
-    sr.reveal('.image-left',{
-      duration:1500,
-      origin:"bottom",
-      distance:"300px"
-    })
-
-    sr.reveal('.wrapper',{
-      duration:3000,
-      origin:"right"
-    })
-
-    sr.reveal('.boton-gradient',{
-      duration:2000,
-      origin:"bottom",
-      delay:1000
-    })
-
-    sr.reveal('.boton-whatsapp',{
-      duration:2000,
-      origin:"bottom",
-      delay:1000
-    })
-
-    sr.reveal('.btn-resume',{
-      duration:2000,
-      origin:"bottom",
-      delay:1000
-    })
-
-    sr.reveal('.exp',{
-      duration:2000,
-      origin:"left",
-      distance:"300px"
-    })
-
-
-
-
+ 
    
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+ 
+  <script type="text/javascript" src="js/mdb.min.js"></script>
 
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        e.preventDefault();
+  <script src="js/javascript.js"></script>
 
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
-        });
-    });
-});
-  </script>
-
+  <script src="js/jquery.js"></script>
+ 
 </body>
 </html>
